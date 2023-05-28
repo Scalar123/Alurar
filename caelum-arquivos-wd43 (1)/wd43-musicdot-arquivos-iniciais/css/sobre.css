@@ -1,0 +1,71 @@
+body{
+    font-family: playfair;
+    text-align: justify ;
+    /*background-color: bisque;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+/*
+p {
+    line-height: 3px;  tamanho da altura de cada linha 
+    letter-spacing: 3px;  tamanho do espaço entre cada letra
+    word-spacing: 5px;  tamanho do espaço entre cada palavra 
+    text-indent: 30px;  tamanho da margem da primeira linha do texto 
+  }
+*/
+
+.titulo_sobre, .titulo_contato{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+}
+
+.titulo_historia {
+    text-decoration: underline;
+    border-bottom: 2px solid black ;
+}
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid lightgrey ;
+    padding: 15px;
+    margin: 30px;
+    
+}
+
+.figure_one {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure_two {
+    width: 275px;
+    float: right;  
+}
+
+figure img{
+    width: inherit;
+    
+}
+
+
+#fig_matriz, #fig_tup {
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.diferencias {
+    border-bottom: 2px solid black;
+}
+
+.section_corre{
+    float: left;
+}
+
+.section_tel {
+    float: right;
+}

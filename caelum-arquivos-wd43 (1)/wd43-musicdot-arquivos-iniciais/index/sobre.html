@@ -4,45 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titulo da guia pagina-->
     <title>Cafutebol | Sobre nos</title>
-    <link rel="icon" href="../img/iconeb.ico" >
+
+    <!--Icone da guia pagina-->
+    <link rel="icon" href="../img/iconeb.ico">
+    
     <!--	Inclusão do	arquivo	CSS sobre nos	-->
     <link rel="stylesheet" href="../css/sobre.css">
+
+    <!--Ligação do estilo google font playfarir-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <img src="../img/Logoball.png" alt="" width="50">
+    <!--Logo da nossa pagina-->
+    <img src="../img/Logoball.png" id="logo"  alt="Um bola" width="50">
 
     <!--Explicação matriz-->
-    <h2>Sobre a empresa</h2>
+    <h1 class="titulo_sobre">Sobre a empresa</h1>
 
     <p>A <cite>cafutebol</cite> é a melhor loja de vendas online de produtos esportivos do mundo
         fundada em 2000, Possui lojas em 100 países, sendo lider de mercado
-        nossa matriz fica em São paulo, Brasil.<br> Nossa matriz:</p>
+        nossa matriz fica em <a href="https://www.google.com/maps/@-23.4789241,-46.7833655,3a,75y,69.22h,84.62t/data=!3m6!1e1!3m4!1sRNPAWDdMOD3mt9BrmLTluQ!2e0!7i16384!8i8192?entry=ttu" target="_blank"> 
+        Osasco São paulo, Brasil</a>.<br> Nossa matriz:</p>
     <!--Fim explicação matriz-->
 
     <!--Imagem da nossa matriz-->
-    <figure>
-        <img src="../img/matriz-musicdot.png" alt="Um casa">
-        <figcaption>Matriz cafutebol</figcaption>
+    <figure class="figure_one">
+        <img src="../img/matriz-musicdot.png" alt="Um casa" class="img_matriz">
+        <figcaption id="fig_matriz">Matriz cafutebol</figcaption>
     </figure>
     <!--Fim da primeira imagem-->
 
+    <p>Acesse nosso site principal clicando <a href="../index/index.html" target="_blank">aqui.</a><br>
+       Saiba mais sobre <a href="#historia">nossa historia</a> e nossos <a href="#diferencias">diferencias</a>
+
+    </p>
+
     <!--Imagem da famila tup-->
-    <h3>Historia</h3>
-    <figure>
-        <img src="../img/familia-tupfeln.jpg" alt="familia-tupfeln">
-        <figcaption>familia tupfeln</figcaption>
+    <h2 id="historia" class="titulo_historia">Historia</h2>
+    <figure class="figure_two">
+        <img src="../img/familia-tupfeln.jpg" alt="familia-tupfeln" class="img_familia" >
+        <figcaption id="fig_tup">familia tupfeln</figcaption>
     </figure>
     <!--Final da imagem-->
 
     <!--Mais sobre a empressa-->
     <p>
-    A empresa foi fundada em 1948 na cidade alemã de Herzogenaurach, encravada no coração da Francônia,<br>
-    depois que Rudolf Dassler, brigou com seu irmão, que pouco depois fundaria a Adidas,<br>
-    e resolveu fundar a PUMA Schuhfabrik Rudolf Dassler com apenas 30 funcionários.<br>
+        A empresa foi fundada em 1948 na cidade alemã de Herzogenaurach, encravada no coração da Francônia, depois que Rudolf Dassler, brigou com seu irmão, que pouco depois fundaria a Adidas, e resolveu fundar a PUMA Schuhfabrik Rudolf Dassler com apenas 30 funcionários. Dois anos depois já exportava seus produtos para os Estados Unidos. Na década de 50 a marca conseguiu enormes feitos como em 1952, quando o atleta Joseph Barthel de Luxemburgo ganhou a primeira medalha olímpica em Helsinki vestindo equipamento PUMA; e dois anos depois, em Yokahama no Japão, Heinz Fütterer estabeleceu novo recorde mundial para o 100m utilizando tênis PUMA. No ano de 1958, as seleções de Brasil e Suécia vestiam a marca na disputa da Copa do Mundo. No ano seguinte a empresa passa a se chamar PUMA-Sportschuhfabriken Rudolf Dassler KG. Na década de 60 tornou-se a primeira marca esportiva a utilizar a técnica de produção de vulcanização. Em 1962 a fábrica já exportava seus produtos para cerca de 100 países em todos os continentes. As chuteiras Puma conseguiram grande reconhecimento durante a Copa do Mundo de 1962, no Chile, e 1970, no México, quando o Brasil foi campeão. Pelé foi eleito melhor jogador da competição e usava chuteiras da marca alemã. Outro feito de grande reconhecimento para a marca aconteceu em 1976 quando o tenista argentino Guillermo Villas conquistou os torneios US Open e Rolland Garros vestindo tênis PUMA. Em 1982, Diego Maradona, disputou sua primeira Copa do Mundo utilizando chuteiras PUMA. Três anos depois, o tenista alemão Boris Becker venceu o torneio de Wimbledon usando uma raquete da marca PUMA. Ainda neste ano ingressou na NBA tendo nomes como Isiah Thomas e Buck Williams como atletas patrocinados. Apesar de tudo isso, no início dos anos 90, a marca Puma não possuía mais nenhuma relevãncia dentro ou fora da Alemanha
     </p>
 
+
+    <h2 id="diferencias" class="diferencias">Nossos diferencias</h3>
+        <ul>
+            <li>Melhor preço do mercado esportivos</li>
+            <li>Melhor qualidade dos produtos</li>
+            <li>Envios rapidos</li>
+            <li>Devolução se não gostar do produto comprado</li>
+            <li>Respostas rapidas as duvidas do consumidores</li>
+        </ul>
+    
+    <h2 class="titulo_contato">Contato</h2> 
+
+        <section class="section_corre">
+            <h3><b>Correspondência</b><small>(Todos os dias das 8:00 ate as 18:00)</small></h3>
+            <address>
+             Cafutebol brasil limeted<br>
+             Santa fê, Estr. de portugal<br>
+             Osasco, São paulo brazil.
+            </address>
+        </section>
+        <section class="section_tel">
+            <h3><b>Telefones</b><small>(Segunda a sexta feira das 8:00 ate as 18:00)</small></h3>
+            
+            <dl>
+                <dt>Telefone fisico</dt>
+                    <dd><a href="tel://11985019571"> 11985019571</a></dd>
+                <dt>Telefone juridico</dt>
+                    <dd><a href="tel://119923333"> 119923333</a></dd>
+            </dl>
+
+        </section>
 
 </body>
 </html>

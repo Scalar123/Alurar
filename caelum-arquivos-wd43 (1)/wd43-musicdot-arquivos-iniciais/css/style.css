@@ -1,7 +1,10 @@
-/*body{
-    font-family:'Times New Roman', Times, serif;
-}*/
-
-p {
-    font-family: monospace ;
+body {
+    font-family: playfair;
+    /*background-image: url(../img/home-background.png);*/ 
+    /*background-color: aqua;*/
 }
+
+ul {
+    list-style: circle;
+}
+
