@@ -62,10 +62,31 @@ figure img{
     border-bottom: 2px solid black;
 }
 
-.section_corre{
-    float: left;
+.subtitulo-correspondência ,.subtitulo-tel{
+    display: inline;
 }
 
-.section_tel {
-    float: right;
+.info-contato {
+    margin: 16px 0px 24px;
+
+}
+
+.tel-info {
+    margin-left: 32px;
+}
+
+.div-correspondência_info{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+    
+}
+
+.div-contato_info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.num{
+    margin-left: 10px;
 }

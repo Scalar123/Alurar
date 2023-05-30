@@ -12,27 +12,37 @@
            width: 1000px;
             
         }
-        p{
+        .div-p{
             border: 5px solid blue;
             height: inherit; 
             width: inherit;
         }
-     
 
+        .p-block{
+            background-color: aqua;
+            width: 30%;
+           
+        }
+     
+        a {
+            background-color: aqua;
+            width: 45%;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
 <!--Valor inherit nos atributos height e 
  width vai fazer como que ele fica igual a
-os do elementos pai-->
+os do elementos pai
     <div>
-        <p>Sou um paragrafo teste</p>
+        <p class="div-p">Sou um paragrafo teste</p>
     </div>
           
 
 
 
-   <!--<dl>
+   <dl>
         <dt>SCCP</dt>
             <dd>Clube de futebol brasileiro, 
             o Sport Club Corinthians Paulista foi fundado a 5 de setembro de 1910,
@@ -41,5 +51,11 @@ os do elementos pai-->
     </dl>
 -->
     
+    <p class="p-block">block</p>
+    <p class="p-block">Outro block</p>
+
+    <a href="https://www.youtube.com/">inline</a>
+    <a href="#">Outro inline</a>
+
 </body>
 </html>
