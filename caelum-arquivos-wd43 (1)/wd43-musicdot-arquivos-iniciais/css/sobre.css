@@ -1,6 +1,6 @@
 html{
-    font-size: 5px;
-
+    font-size: 16px;
+    letter-spacing: 1.5px;
 }
 
 
@@ -12,7 +12,7 @@ body{
     margin-right: auto;
     width: 940px;
     padding: 0px;
-    font-size: 3rem;
+    font-size: 1rem;
     word-spacing: 1.5px;
 }
 
@@ -79,18 +79,18 @@ figure img{
     border-bottom: 2px solid black;
 }
 
+.tel-info {
+    display: inline-block;
+}
+
+
 .subtitulo-correspondência ,.subtitulo-tel{
     display: inline;
 }
 
 .info-contato {
     margin: 16px 0px 24px;
-
-}
-
-.tel-info {
-    margin-left: 32px;
-   font-size: 3rem;
+    
 }
 
 .div-correspondência_info{
@@ -103,8 +103,26 @@ figure img{
 .div-contato_info{
     margin: 16px 0 24px;
     padding-left: 32px;
+    display: inline;
 }
 
 .num{
     margin-left: 10px;
 }
+
+.rodape {
+    padding: 1.75rem 0px; 
+    font-size: 1.1rem;
+}
+
+.rodape img {
+    width: 6rem;
+}
+
+.copyright {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+
